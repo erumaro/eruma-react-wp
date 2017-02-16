@@ -1,39 +1,70 @@
-var webpack = require('webpack');
+const webpack = require('webpack');
+const path = require('path');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+const VENDOR_LIBS = [
+    'axios', 'react', 'react-dom', 'react-redux', 'react-router', 'redux'
+];
 
 module.exports = {
-  entry: "./js/index.js",
-  output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
-  },
-
-  module: {
-   
-   loaders: [
-  
-    // Babel / React Loader
-    {
-      test: [/\.js$/, /\.es6$/],
-      exclude: /node_modules/,
-      loader: 'babel-loader',
-      query: {
-        presets: ['react', 'es2015'] 
-      }
+    entry: {
+        bundle: './src/index.js',
+        vendor: VENDOR_LIBS
     },
-
-    // Style Loader com: lägg in sass...
-    {
-      test: /\.css$/, loader: "style!css",
-    }
-
-   ]
-   
- },
-
- resolve: {
-   extensions: ['', '.js', '.es6']
- },
-  
-  watch: true
-
-}
+    output: {
+        path: path.join(__dirname, 'dist'),
+        filename: '[name].[hash].js'
+    },
+    devtool: 'source-map',
+    module: {
+        rules: [
+            {
+                use: 'babel-loader',
+                test: /\.js$/,
+                exclude: /node_modules/
+            },
+            {
+                use: ExtractTextPlugin.extract({
+                    fallback: 'style-loader',
+                    use: [
+                        {
+                            loader: 'css-loader',
+                            options: {
+                                sourceMap: true
+                            }
+                        },
+                        {
+                            loader: 'sass-loader',
+                            options: {
+                                sourceMap: true
+                            }
+                        }
+                    ]
+                }),
+                test: /\.scss$/
+            },
+            {
+                test: /\.(eot|svg|ttf|woff|woff2)$/,
+                use: 'url-loader'
+            }
+        ]
+    },
+    plugins: [
+        new webpack.DefinePlugin({
+            'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+        }),
+        new webpack.optimize.CommonsChunkPlugin({
+            names: ['vendor', 'manifest']
+        }),
+        new HtmlWebpackPlugin({
+            template: 'src/index.html'
+        }),
+        new ExtractTextPlugin({
+            filename: 'style.css',
+            allChunks: true
+        })
+    ],
+    
+    watch: true
+};
