@@ -1,5 +1,11 @@
-body {
-    background: #333;
+body{
+    background: #ebebeb;
 }
+
+@import "header";
+
+@import "front-page";
+
+@import "footer";
 
 @import "button";

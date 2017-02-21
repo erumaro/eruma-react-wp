@@ -1,0 +1,28 @@
+/* line 1, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/style.scss */
+body {
+  background: #ebebeb; }
+
+/* line 1, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_header.scss */
+header {
+  border-bottom: 2px solid #d9d9d9;
+  padding: 1em 0;
+  background: #fff; }
+
+/* line 7, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_header.scss */
+.ui.grid > .row > .column[class*="thirteen wide"] {
+  align-items: center;
+  display: flex; }
+
+/* line 1, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
+main {
+  padding: 1em 0; }
+
+/* line 5, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
+.ui.items > .item {
+  align-items: center; }
+
+/* line 1, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_button.scss */
+.ui.button {
+  color: red; }
+
+/*# sourceMappingURL=style.css.map */
