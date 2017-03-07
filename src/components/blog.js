@@ -13,9 +13,14 @@ class Blog extends Component {
     renderPosts() {
         return this.props.posts.map((post) => {
             return (
-                <article key={post.id}>
-                    <header><h2>{post.title.rendered}</h2></header>
-                    <div>{ReactHtmlParser(post.content.rendered)}</div>
+                <article key={post.id} className='post'>
+                    <Image src={post._embedded["wp:featuredmedia"] != undefined ? post._embedded["wp:featuredmedia"][0].source_url : '../images/fashion-q-c-1800-900-8.jpg'} fluid />
+                    <Grid centered columns={2}>
+                        <Grid.Column>
+                            <header><Header as='h2'>{ReactHtmlParser(post.title.rendered)}</Header></header>
+                            <div className='post-content'>{ReactHtmlParser(post.excerpt.rendered)}</div>
+                        </Grid.Column>
+                    </Grid>
                 </article>
             )
         });
@@ -25,7 +30,6 @@ class Blog extends Component {
         return (
             <main>
                 <Container>
-                <h2>Blog</h2>
                 {this.renderPosts()}
                 </Container>
             </main>
@@ -38,66 +42,3 @@ function mapStateToProps(state) {
 }
 
 export default connect(mapStateToProps, { fetchPosts })(Blog);
-
-
-/*
-
-            <main>
-               <Container>
-                    <Item.Group>
-                        <Item>
-                            <Item.Image size='small' src='http://semantic-ui.com/images/wireframe/image.png'/>
-                            <Item.Content>
-                                <Item.Header as='a'>Cute Dog</Item.Header>
-                                <Item.Description>
-                                    <p>{description}</p>
-                                    <p>
-                                        Many people also have their own barometers for what makes a cute dog.
-                                    </p>
-                                </Item.Description>
-                            </Item.Content>
-                        </Item>
-                        <Divider />
-                        <Item>
-                            <Item.Image size='small' src='http://semantic-ui.com/images/wireframe/image.png'/>
-                            <Item.Content>
-                                <Item.Header as='a'>Cute Dog</Item.Header>
-                                <Item.Description>
-                                    <p>{description}</p>
-                                    <p>
-                                        Many people also have their own barometers for what makes a cute dog.
-                                    </p>
-                                </Item.Description>
-                            </Item.Content>
-                        </Item>
-                        <Divider />
-                        <Item>
-                            <Item.Image size='small' src='http://semantic-ui.com/images/wireframe/image.png'/>
-                            <Item.Content>
-                                <Item.Header as='a'>Cute Dog</Item.Header>
-                                <Item.Description>
-                                    <p>{description}</p>
-                                    <p>
-                                        Many people also have their own barometers for what makes a cute dog.
-                                    </p>
-                                </Item.Description>
-                            </Item.Content>
-                        </Item>
-                    </Item.Group>
-                </Container>
-            </main>
-            <aside>
-                <Image src="../images/fashion-q-c-1800-900-8.jpg" />
-            </aside>
-            <footer>
-                <Container>
-                    <Image src="../images/eruma-go-logo.png" size='small' centered />
-                    <Menu secondary fluid widths={4}>
-                        <Menu.Item name='home'/>
-                        <Menu.Item name='category'/>
-                        <Menu.Item name='page'/>
-                        <Menu.Item name='blog'/>
-                    </Menu>
-                </Container>
-            </footer>
-*/

@@ -3,26 +3,62 @@ body {
   background: #ebebeb; }
 
 /* line 1, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_header.scss */
-header {
-  border-bottom: 2px solid #d9d9d9;
+.site-header {
   padding: 1em 0;
-  background: #fff; }
+  background: #333; }
 
-/* line 7, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_header.scss */
+/* line 6, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_header.scss */
 .ui.grid > .row > .column[class*="thirteen wide"] {
   align-items: center;
   display: flex; }
 
-/* line 1, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
-main {
-  padding: 1em 0; }
+/* line 11, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_header.scss */
+.ui.menu .item {
+  color: #fff; }
 
-/* line 5, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
+/* line 15, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_header.scss */
+.ui.secondary.menu .dropdown.item:hover, .ui.secondary.menu .link.item:hover, .ui.secondary.menu a.item:hover {
+  color: white; }
+
+/* line 1, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
 .ui.items > .item {
   align-items: center; }
 
-/* line 1, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_button.scss */
+/* line 6, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
+main article {
+  position: relative;
+  background-color: #2f2a27;
+  margin: 1em 0; }
+  /* line 11, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
+  main article img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */ }
+  /* line 15, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
+  main article .ui.centered.grid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: #fff; }
+
+/* line 26, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
+h2.ui.header {
+  margin: 0;
+  color: #fff; }
+
+/* line 31, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
 .ui.button {
-  color: red; }
+  margin: 1em 0; }
+
+/* line 1, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_sidebar.scss */
+.widget-area {
+  background-color: black; }
+
+/* line 1, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_footer.scss */
+footer {
+  background: #fff;
+  padding: 1em 0; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,10 +1,17 @@
-header{
-    border-bottom: 2px solid #d9d9d9;
+.site-header{
     padding: 1em 0;
-    background: #fff;
+    background: #333;
 }
 
 .ui.grid > .row > .column[class*="thirteen wide"]{
     align-items: center;
     display: flex;
+}
+
+.ui.menu .item{
+    color: #fff;
+}
+
+.ui.secondary.menu .dropdown.item:hover, .ui.secondary.menu .link.item:hover, .ui.secondary.menu a.item:hover {
+    color: rgba(255, 255, 255, 1);
 }

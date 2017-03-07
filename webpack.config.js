@@ -14,7 +14,7 @@ module.exports = {
     },
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: '[name].[hash].js'
+        filename: '[name].js'
     },
     devtool: 'source-map',
     module: {
@@ -58,6 +58,7 @@ module.exports = {
             names: ['vendor', 'manifest']
         }),
         new HtmlWebpackPlugin({
+            filename: 'index.html',
             template: 'src/index.html'
         }),
         new ExtractTextPlugin({

@@ -8,6 +8,7 @@
     "modified": "2012-02-09T22:33:31",
     "modified_gmt": "2012-02-09T20:33:31",
     "slug": "hamilton-i-nationens-intresse",
+    "status": "publish",
     "type": "post",
     "link": "http:\/\/www.tobiasarud.se\/hamilton-i-nationens-intresse\/",
     "title": {
@@ -69,6 +70,223 @@
             "href": "https:\/\/api.w.org\/{rel}",
             "templated": true
         }]
+    },
+    "_embedded": {
+        "author": [{
+            "id": 1,
+            "name": "Tobias",
+            "url": "",
+            "description": "\u00e4r 23 \u00e5r gammal och \u00e4r utbildad Interaktionsdesigner.",
+            "link": "http:\/\/www.tobiasarud.se\/author\/admin\/",
+            "slug": "admin",
+            "avatar_urls": {
+                "24": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=24&d=mm&r=g",
+                "48": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=48&d=mm&r=g",
+                "96": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=96&d=mm&r=g"
+            },
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users\/1"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users"
+                }]
+            }
+        }],
+        "replies": [[{
+            "id": 185,
+            "parent": 184,
+            "author": 0,
+            "author_name": "Tobias \u00c5rud",
+            "author_url": "http:\/\/www.tobiasarud.se",
+            "date": "2012-02-11T14:32:00",
+            "content": {
+                "rendered": "<p>\u00a0Det skulle dom definitivt kunna ha gjort.<br \/>\nOm de g\u00f6r fler filmer hoppas jag dom jobbar mer med manus s\u00e5 att filmen b\u00e5de ser och \u00e4r p\u00e5 samma niv\u00e5.<\/p>\n"
+            },
+            "link": "http:\/\/www.tobiasarud.se\/hamilton-i-nationens-intresse\/comment-page-1\/#comment-185",
+            "type": "comment",
+            "author_avatar_urls": {
+                "24": "http:\/\/1.gravatar.com\/avatar\/4605703b5e3413a490303b86d09c4d5b?s=24&d=mm&r=g",
+                "48": "http:\/\/1.gravatar.com\/avatar\/4605703b5e3413a490303b86d09c4d5b?s=48&d=mm&r=g",
+                "96": "http:\/\/1.gravatar.com\/avatar\/4605703b5e3413a490303b86d09c4d5b?s=96&d=mm&r=g"
+            },
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/comments\/185"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/comments"
+                }],
+                "up": [{
+                    "embeddable": true,
+                    "post_type": "post",
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts\/757"
+                }],
+                "in-reply-to": [{
+                    "embeddable": true,
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/comments\/184"
+                }]
+            }
+        }, {
+            "id": 184,
+            "parent": 0,
+            "author": 0,
+            "author_name": "Oj",
+            "author_url": "",
+            "date": "2012-02-11T02:02:00",
+            "content": {
+                "rendered": "<p>Filmen k\u00e4ndes f\u00f6r snabb och enkel. De skulle kunna gjort det b\u00e4ttre. <\/p>\n"
+            },
+            "link": "http:\/\/www.tobiasarud.se\/hamilton-i-nationens-intresse\/comment-page-1\/#comment-184",
+            "type": "comment",
+            "author_avatar_urls": {
+                "24": "http:\/\/0.gravatar.com\/avatar\/3520a4a1fc17fe1384fa2bf695d55110?s=24&d=mm&r=g",
+                "48": "http:\/\/0.gravatar.com\/avatar\/3520a4a1fc17fe1384fa2bf695d55110?s=48&d=mm&r=g",
+                "96": "http:\/\/0.gravatar.com\/avatar\/3520a4a1fc17fe1384fa2bf695d55110?s=96&d=mm&r=g"
+            },
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/comments\/184"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/comments"
+                }],
+                "up": [{
+                    "embeddable": true,
+                    "post_type": "post",
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts\/757"
+                }],
+                "children": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/comments?parent=184"
+                }]
+            }
+        }]],
+        "wp:term": [[{
+            "id": 19,
+            "link": "http:\/\/www.tobiasarud.se\/category\/filmtv\/",
+            "name": "Film &amp; TV",
+            "slug": "filmtv",
+            "taxonomy": "category",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories\/19"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/category"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?categories=19"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }], [{
+            "id": 23,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/action\/",
+            "name": "action",
+            "slug": "action",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/23"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=23"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 321,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/hamilton\/",
+            "name": "Hamilton",
+            "slug": "hamilton",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/321"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=321"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 322,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/jan-guillou\/",
+            "name": "Jan Guillou",
+            "slug": "jan-guillou",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/322"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=322"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 320,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/mikael-persbrandt\/",
+            "name": "Mikael Persbrandt",
+            "slug": "mikael-persbrandt",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/320"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=320"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }]]
     }
 }, {
     "id": 540,
@@ -80,6 +298,7 @@
     "modified": "2012-02-07T20:46:58",
     "modified_gmt": "2012-02-07T18:46:58",
     "slug": "ego-fall-kinesisk-metal",
+    "status": "publish",
     "type": "post",
     "link": "http:\/\/www.tobiasarud.se\/ego-fall-kinesisk-metal\/",
     "title": {
@@ -141,6 +360,248 @@
             "href": "https:\/\/api.w.org\/{rel}",
             "templated": true
         }]
+    },
+    "_embedded": {
+        "author": [{
+            "id": 1,
+            "name": "Tobias",
+            "url": "",
+            "description": "\u00e4r 23 \u00e5r gammal och \u00e4r utbildad Interaktionsdesigner.",
+            "link": "http:\/\/www.tobiasarud.se\/author\/admin\/",
+            "slug": "admin",
+            "avatar_urls": {
+                "24": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=24&d=mm&r=g",
+                "48": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=48&d=mm&r=g",
+                "96": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=96&d=mm&r=g"
+            },
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users\/1"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users"
+                }]
+            }
+        }],
+        "replies": [[{
+            "id": 183,
+            "parent": 182,
+            "author": 0,
+            "author_name": "Tobias \u00c5rud",
+            "author_url": "http:\/\/www.tobiasarud.se",
+            "date": "2012-02-07T21:07:00",
+            "content": {
+                "rendered": "<p>Inte p\u00e5 niv\u00e5 med In Flames och andra som jag n\u00e4mde p\u00e5 G+, men jag tyckte dom var bra. Inget speciellt kanske, med undantag av var dom kommer fr\u00e5n och att det \u00e4r p\u00e5 kinesiska.<\/p>\n"
+            },
+            "link": "http:\/\/www.tobiasarud.se\/ego-fall-kinesisk-metal\/comment-page-1\/#comment-183",
+            "type": "comment",
+            "author_avatar_urls": {
+                "24": "http:\/\/1.gravatar.com\/avatar\/4605703b5e3413a490303b86d09c4d5b?s=24&d=mm&r=g",
+                "48": "http:\/\/1.gravatar.com\/avatar\/4605703b5e3413a490303b86d09c4d5b?s=48&d=mm&r=g",
+                "96": "http:\/\/1.gravatar.com\/avatar\/4605703b5e3413a490303b86d09c4d5b?s=96&d=mm&r=g"
+            },
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/comments\/183"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/comments"
+                }],
+                "up": [{
+                    "embeddable": true,
+                    "post_type": "post",
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts\/540"
+                }],
+                "in-reply-to": [{
+                    "embeddable": true,
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/comments\/182"
+                }]
+            }
+        }, {
+            "id": 182,
+            "parent": 0,
+            "author": 0,
+            "author_name": "Erik Gustafsson",
+            "author_url": "",
+            "date": "2012-02-07T21:03:00",
+            "content": {
+                "rendered": "<p>Medelm\u00e5ttigt &#8211; som sagt \ud83d\ude09<\/p>\n"
+            },
+            "link": "http:\/\/www.tobiasarud.se\/ego-fall-kinesisk-metal\/comment-page-1\/#comment-182",
+            "type": "comment",
+            "author_avatar_urls": {
+                "24": "http:\/\/1.gravatar.com\/avatar\/7d9ded0c0fab592f36643227e1045bfb?s=24&d=mm&r=g",
+                "48": "http:\/\/1.gravatar.com\/avatar\/7d9ded0c0fab592f36643227e1045bfb?s=48&d=mm&r=g",
+                "96": "http:\/\/1.gravatar.com\/avatar\/7d9ded0c0fab592f36643227e1045bfb?s=96&d=mm&r=g"
+            },
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/comments\/182"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/comments"
+                }],
+                "up": [{
+                    "embeddable": true,
+                    "post_type": "post",
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts\/540"
+                }],
+                "children": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/comments?parent=182"
+                }]
+            }
+        }]],
+        "wp:term": [[{
+            "id": 3,
+            "link": "http:\/\/www.tobiasarud.se\/category\/musik\/",
+            "name": "Musik",
+            "slug": "musik",
+            "taxonomy": "category",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories\/3"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/category"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?categories=3"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }], [{
+            "id": 305,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/chinese-metal\/",
+            "name": "Chinese Metal",
+            "slug": "chinese-metal",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/305"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=305"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 304,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/ego-fall\/",
+            "name": "Ego Fall",
+            "slug": "ego-fall",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/304"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=304"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 237,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/melodic-death-metal\/",
+            "name": "Melodic Death Metal",
+            "slug": "melodic-death-metal",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/237"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=237"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 4,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/metal\/",
+            "name": "Metal",
+            "slug": "metal",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/4"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=4"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 306,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/strupsang\/",
+            "name": "strups\u00e5ng",
+            "slug": "strupsang",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/306"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=306"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }]]
     }
 }, {
     "id": 435,
@@ -152,6 +613,7 @@
     "modified": "2014-10-02T11:20:30",
     "modified_gmt": "2014-10-02T09:20:30",
     "slug": "karas",
+    "status": "publish",
     "type": "post",
     "link": "http:\/\/www.tobiasarud.se\/karas\/",
     "title": {
@@ -217,6 +679,237 @@
             "href": "https:\/\/api.w.org\/{rel}",
             "templated": true
         }]
+    },
+    "_embedded": {
+        "author": [{
+            "id": 1,
+            "name": "Tobias",
+            "url": "",
+            "description": "\u00e4r 23 \u00e5r gammal och \u00e4r utbildad Interaktionsdesigner.",
+            "link": "http:\/\/www.tobiasarud.se\/author\/admin\/",
+            "slug": "admin",
+            "avatar_urls": {
+                "24": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=24&d=mm&r=g",
+                "48": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=48&d=mm&r=g",
+                "96": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=96&d=mm&r=g"
+            },
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users\/1"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users"
+                }]
+            }
+        }],
+        "wp:featuredmedia": [{
+            "id": 828,
+            "date": "2012-07-12T17:28:08",
+            "slug": "cropped-rev_gallery_01-jpg",
+            "type": "attachment",
+            "link": "http:\/\/www.tobiasarud.se\/cropped-rev_gallery_01-jpg\/",
+            "title": {
+                "rendered": "cropped-rev_gallery_01.jpg"
+            },
+            "author": 1,
+            "caption": {
+                "rendered": "<p>http:\/\/www.tobiasarud.se\/wp-content\/uploads\/2012\/01\/cropped-rev_gallery_01.jpg<\/p>\n"
+            },
+            "alt_text": "",
+            "media_type": "image",
+            "mime_type": "image\/jpeg",
+            "media_details": {
+                "width": "1000",
+                "height": "288",
+                "hwstring_small": "height='36' width='128'",
+                "file": "2012\/01\/cropped-rev_gallery_01.jpg",
+                "sizes": {
+                    "thumbnail": {
+                        "file": "cropped-rev_gallery_01-150x150.jpg",
+                        "width": "150",
+                        "height": "150",
+                        "source_url": "http:\/\/www.tobiasarud.se\/wp-content\/uploads\/2012\/01\/cropped-rev_gallery_01-150x150.jpg"
+                    },
+                    "medium": {
+                        "file": "cropped-rev_gallery_01-300x86.jpg",
+                        "width": "300",
+                        "height": "86",
+                        "source_url": "http:\/\/www.tobiasarud.se\/wp-content\/uploads\/2012\/01\/cropped-rev_gallery_01-300x86.jpg"
+                    },
+                    "small-feature": {
+                        "file": "cropped-rev_gallery_01-500x144.jpg",
+                        "width": "500",
+                        "height": "144",
+                        "source_url": "http:\/\/www.tobiasarud.se\/wp-content\/uploads\/2012\/01\/cropped-rev_gallery_01-500x144.jpg"
+                    },
+                    "full": {
+                        "file": "cropped-rev_gallery_01.jpg",
+                        "width": 1000,
+                        "height": 288,
+                        "mime_type": "image\/jpeg",
+                        "source_url": "http:\/\/www.tobiasarud.se\/wp-content\/uploads\/2012\/01\/cropped-rev_gallery_01.jpg"
+                    }
+                },
+                "image_meta": {
+                    "aperture": "0",
+                    "credit": "",
+                    "camera": "",
+                    "caption": "",
+                    "created_timestamp": "0",
+                    "copyright": "",
+                    "focal_length": "0",
+                    "iso": "0",
+                    "shutter_speed": "0",
+                    "title": ""
+                }
+            },
+            "source_url": "http:\/\/www.tobiasarud.se\/wp-content\/uploads\/2012\/01\/cropped-rev_gallery_01.jpg",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/media\/828"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/media"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/types\/attachment"
+                }],
+                "author": [{
+                    "embeddable": true,
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users\/1"
+                }],
+                "replies": [{
+                    "embeddable": true,
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/comments?post=828"
+                }]
+            }
+        }],
+        "wp:term": [[{
+            "id": 14,
+            "link": "http:\/\/www.tobiasarud.se\/category\/animemanga\/",
+            "name": "Anime &amp; Manga",
+            "slug": "animemanga",
+            "taxonomy": "category",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories\/14"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/category"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?categories=14"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }], [{
+            "id": 23,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/action\/",
+            "name": "action",
+            "slug": "action",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/23"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=23"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 277,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/karas\/",
+            "name": "Karas",
+            "slug": "karas",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/277"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=277"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 279,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/keiichi-sato\/",
+            "name": "Keiichi Sato",
+            "slug": "keiichi-sato",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/279"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=279"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 278,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/tatsunoko-production\/",
+            "name": "Tatsunoko Production",
+            "slug": "tatsunoko-production",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/278"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=278"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }]]
     }
 }, {
     "id": 725,
@@ -228,6 +921,7 @@
     "modified": "2012-01-21T23:57:46",
     "modified_gmt": "2012-01-21T21:57:46",
     "slug": "nasta-dragon-age-kommer-ta-inspiration-fran-skyrim",
+    "status": "publish",
     "type": "post",
     "link": "http:\/\/www.tobiasarud.se\/nasta-dragon-age-kommer-ta-inspiration-fran-skyrim\/",
     "title": {
@@ -289,6 +983,205 @@
             "href": "https:\/\/api.w.org\/{rel}",
             "templated": true
         }]
+    },
+    "_embedded": {
+        "author": [{
+            "id": 1,
+            "name": "Tobias",
+            "url": "",
+            "description": "\u00e4r 23 \u00e5r gammal och \u00e4r utbildad Interaktionsdesigner.",
+            "link": "http:\/\/www.tobiasarud.se\/author\/admin\/",
+            "slug": "admin",
+            "avatar_urls": {
+                "24": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=24&d=mm&r=g",
+                "48": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=48&d=mm&r=g",
+                "96": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=96&d=mm&r=g"
+            },
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users\/1"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users"
+                }]
+            }
+        }],
+        "wp:term": [[{
+            "id": 28,
+            "link": "http:\/\/www.tobiasarud.se\/category\/spel\/",
+            "name": "Spel",
+            "slug": "spel",
+            "taxonomy": "category",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories\/28"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/category"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?categories=28"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }], [{
+            "id": 31,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/bioware\/",
+            "name": "bioware",
+            "slug": "bioware",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/31"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=31"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 211,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/dragon-age\/",
+            "name": "Dragon Age",
+            "slug": "dragon-age",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/211"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=211"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 263,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/dragon-age-2\/",
+            "name": "Dragon Age 2",
+            "slug": "dragon-age-2",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/263"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=263"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 212,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/dragon-age-origins\/",
+            "name": "Dragon Age: Origins",
+            "slug": "dragon-age-origins",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/212"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=212"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 29,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/rpg\/",
+            "name": "RPG",
+            "slug": "rpg",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/29"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=29"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 319,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/skyrim\/",
+            "name": "Skyrim",
+            "slug": "skyrim",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/319"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=319"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }]]
     }
 }, {
     "id": 498,
@@ -300,6 +1193,7 @@
     "modified": "2012-01-16T14:43:59",
     "modified_gmt": "2012-01-16T12:43:59",
     "slug": "baccano",
+    "status": "publish",
     "type": "post",
     "link": "http:\/\/www.tobiasarud.se\/baccano\/",
     "title": {
@@ -361,6 +1255,205 @@
             "href": "https:\/\/api.w.org\/{rel}",
             "templated": true
         }]
+    },
+    "_embedded": {
+        "author": [{
+            "id": 1,
+            "name": "Tobias",
+            "url": "",
+            "description": "\u00e4r 23 \u00e5r gammal och \u00e4r utbildad Interaktionsdesigner.",
+            "link": "http:\/\/www.tobiasarud.se\/author\/admin\/",
+            "slug": "admin",
+            "avatar_urls": {
+                "24": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=24&d=mm&r=g",
+                "48": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=48&d=mm&r=g",
+                "96": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=96&d=mm&r=g"
+            },
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users\/1"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users"
+                }]
+            }
+        }],
+        "wp:term": [[{
+            "id": 14,
+            "link": "http:\/\/www.tobiasarud.se\/category\/animemanga\/",
+            "name": "Anime &amp; Manga",
+            "slug": "animemanga",
+            "taxonomy": "category",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories\/14"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/category"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?categories=14"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }], [{
+            "id": 231,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/action-adventure\/",
+            "name": "action-adventure",
+            "slug": "action-adventure",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/231"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=231"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 342,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/animemanga\/",
+            "name": "Anime &amp; Manga",
+            "slug": "animemanga",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/342"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=342"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 291,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/baccano\/",
+            "name": "Baccano!",
+            "slug": "baccano",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/291"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=291"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 261,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/brains-base\/",
+            "name": "Brain's Base",
+            "slug": "brains-base",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/261"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=261"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 113,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/comedy-2\/",
+            "name": "comedy",
+            "slug": "comedy-2",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/113"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=113"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 262,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/takahiro-omori\/",
+            "name": "Takahiro Omori",
+            "slug": "takahiro-omori",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/262"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=262"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }]]
     }
 }, {
     "id": 514,
@@ -372,6 +1465,7 @@
     "modified": "2012-03-09T17:47:08",
     "modified_gmt": "2012-03-09T15:47:08",
     "slug": "maximum-the-hormone",
+    "status": "publish",
     "type": "post",
     "link": "http:\/\/www.tobiasarud.se\/maximum-the-hormone\/",
     "title": {
@@ -433,6 +1527,205 @@
             "href": "https:\/\/api.w.org\/{rel}",
             "templated": true
         }]
+    },
+    "_embedded": {
+        "author": [{
+            "id": 1,
+            "name": "Tobias",
+            "url": "",
+            "description": "\u00e4r 23 \u00e5r gammal och \u00e4r utbildad Interaktionsdesigner.",
+            "link": "http:\/\/www.tobiasarud.se\/author\/admin\/",
+            "slug": "admin",
+            "avatar_urls": {
+                "24": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=24&d=mm&r=g",
+                "48": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=48&d=mm&r=g",
+                "96": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=96&d=mm&r=g"
+            },
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users\/1"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users"
+                }]
+            }
+        }],
+        "wp:term": [[{
+            "id": 3,
+            "link": "http:\/\/www.tobiasarud.se\/category\/musik\/",
+            "name": "Musik",
+            "slug": "musik",
+            "taxonomy": "category",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories\/3"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/category"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?categories=3"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }], [{
+            "id": 302,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/exprimental\/",
+            "name": "exprimental",
+            "slug": "exprimental",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/302"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=302"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 299,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/hardcore-punk\/",
+            "name": "Hardcore Punk",
+            "slug": "hardcore-punk",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/299"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=299"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 298,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/maximum-the-hormone\/",
+            "name": "Maximum the Hormone",
+            "slug": "maximum-the-hormone",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/298"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=298"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 4,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/metal\/",
+            "name": "Metal",
+            "slug": "metal",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/4"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=4"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 303,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/pop\/",
+            "name": "pop",
+            "slug": "pop",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/303"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=303"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 100,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/punk\/",
+            "name": "punk",
+            "slug": "punk",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/100"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=100"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }]]
     }
 }, {
     "id": 506,
@@ -444,6 +1737,7 @@
     "modified": "2011-11-30T18:10:11",
     "modified_gmt": "2011-11-30T16:10:11",
     "slug": "takanashi-yasuharu-%e9%ab%98%e6%a2%a8%e5%ba%b7%e6%b2%bb",
+    "status": "publish",
     "type": "post",
     "link": "http:\/\/www.tobiasarud.se\/takanashi-yasuharu-%e9%ab%98%e6%a2%a8%e5%ba%b7%e6%b2%bb\/",
     "title": {
@@ -505,6 +1799,230 @@
             "href": "https:\/\/api.w.org\/{rel}",
             "templated": true
         }]
+    },
+    "_embedded": {
+        "author": [{
+            "id": 1,
+            "name": "Tobias",
+            "url": "",
+            "description": "\u00e4r 23 \u00e5r gammal och \u00e4r utbildad Interaktionsdesigner.",
+            "link": "http:\/\/www.tobiasarud.se\/author\/admin\/",
+            "slug": "admin",
+            "avatar_urls": {
+                "24": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=24&d=mm&r=g",
+                "48": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=48&d=mm&r=g",
+                "96": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=96&d=mm&r=g"
+            },
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users\/1"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users"
+                }]
+            }
+        }],
+        "wp:term": [[{
+            "id": 3,
+            "link": "http:\/\/www.tobiasarud.se\/category\/musik\/",
+            "name": "Musik",
+            "slug": "musik",
+            "taxonomy": "category",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories\/3"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/category"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?categories=3"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }], [{
+            "id": 296,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/epic\/",
+            "name": "epic",
+            "slug": "epic",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/296"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=296"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 275,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/fairy-tail\/",
+            "name": "Fairy Tail",
+            "slug": "fairy-tail",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/275"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=275"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 236,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/folk-metal\/",
+            "name": "Folk Metal",
+            "slug": "folk-metal",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/236"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=236"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 295,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/naruto\/",
+            "name": "Naruto",
+            "slug": "naruto",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/295"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=295"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 294,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/soundtrack-2\/",
+            "name": "soundtrack",
+            "slug": "soundtrack-2",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/294"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=294"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 293,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/takanashi-yasuharu\/",
+            "name": "Takanashi Yasuharu",
+            "slug": "takanashi-yasuharu",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/293"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=293"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 297,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/%e9%ab%98%e6%a2%a8%e5%ba%b7%e6%b2%bb\/",
+            "name": "\u9ad8\u68a8\u5eb7\u6cbb",
+            "slug": "%e9%ab%98%e6%a2%a8%e5%ba%b7%e6%b2%bb",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/297"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=297"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }]]
     }
 }, {
     "id": 480,
@@ -516,6 +2034,7 @@
     "modified": "2011-09-16T23:07:01",
     "modified_gmt": "2011-09-16T21:07:01",
     "slug": "ett-litet-test",
+    "status": "publish",
     "type": "post",
     "link": "http:\/\/www.tobiasarud.se\/ett-litet-test\/",
     "title": {
@@ -577,6 +2096,55 @@
             "href": "https:\/\/api.w.org\/{rel}",
             "templated": true
         }]
+    },
+    "_embedded": {
+        "author": [{
+            "id": 1,
+            "name": "Tobias",
+            "url": "",
+            "description": "\u00e4r 23 \u00e5r gammal och \u00e4r utbildad Interaktionsdesigner.",
+            "link": "http:\/\/www.tobiasarud.se\/author\/admin\/",
+            "slug": "admin",
+            "avatar_urls": {
+                "24": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=24&d=mm&r=g",
+                "48": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=48&d=mm&r=g",
+                "96": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=96&d=mm&r=g"
+            },
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users\/1"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users"
+                }]
+            }
+        }],
+        "wp:term": [[{
+            "id": 1,
+            "link": "http:\/\/www.tobiasarud.se\/category\/allmant\/",
+            "name": "Allm\u00e4nt",
+            "slug": "allmant",
+            "taxonomy": "category",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories\/1"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/category"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?categories=1"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }], []]
     }
 }, {
     "id": 429,
@@ -588,6 +2156,7 @@
     "modified": "2011-09-07T09:39:51",
     "modified_gmt": "2011-09-07T07:39:51",
     "slug": "grave-of-the-fireflies",
+    "status": "publish",
     "type": "post",
     "link": "http:\/\/www.tobiasarud.se\/grave-of-the-fireflies\/",
     "title": {
@@ -649,6 +2218,180 @@
             "href": "https:\/\/api.w.org\/{rel}",
             "templated": true
         }]
+    },
+    "_embedded": {
+        "author": [{
+            "id": 1,
+            "name": "Tobias",
+            "url": "",
+            "description": "\u00e4r 23 \u00e5r gammal och \u00e4r utbildad Interaktionsdesigner.",
+            "link": "http:\/\/www.tobiasarud.se\/author\/admin\/",
+            "slug": "admin",
+            "avatar_urls": {
+                "24": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=24&d=mm&r=g",
+                "48": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=48&d=mm&r=g",
+                "96": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=96&d=mm&r=g"
+            },
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users\/1"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users"
+                }]
+            }
+        }],
+        "wp:term": [[{
+            "id": 14,
+            "link": "http:\/\/www.tobiasarud.se\/category\/animemanga\/",
+            "name": "Anime &amp; Manga",
+            "slug": "animemanga",
+            "taxonomy": "category",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories\/14"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/category"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?categories=14"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }], [{
+            "id": 142,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/drama\/",
+            "name": "drama",
+            "slug": "drama",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/142"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=142"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 271,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/grave-of-the-fireflies\/",
+            "name": "Grave of the Fireflies",
+            "slug": "grave-of-the-fireflies",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/271"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=271"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 273,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/isao-takahata\/",
+            "name": "Isao Takahata",
+            "slug": "isao-takahata",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/273"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=273"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 272,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/studio-ghibli\/",
+            "name": "Studio Ghibli",
+            "slug": "studio-ghibli",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/272"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=272"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 274,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/war\/",
+            "name": "war",
+            "slug": "war",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/274"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=274"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }]]
     }
 }, {
     "id": 477,
@@ -660,6 +2403,7 @@
     "modified": "2011-09-07T09:39:14",
     "modified_gmt": "2011-09-07T07:39:14",
     "slug": "em-kval-2011-san-marino-sverige-0-5",
+    "status": "publish",
     "type": "post",
     "link": "http:\/\/www.tobiasarud.se\/em-kval-2011-san-marino-sverige-0-5\/",
     "title": {
@@ -721,5 +2465,154 @@
             "href": "https:\/\/api.w.org\/{rel}",
             "templated": true
         }]
+    },
+    "_embedded": {
+        "author": [{
+            "id": 1,
+            "name": "Tobias",
+            "url": "",
+            "description": "\u00e4r 23 \u00e5r gammal och \u00e4r utbildad Interaktionsdesigner.",
+            "link": "http:\/\/www.tobiasarud.se\/author\/admin\/",
+            "slug": "admin",
+            "avatar_urls": {
+                "24": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=24&d=mm&r=g",
+                "48": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=48&d=mm&r=g",
+                "96": "http:\/\/2.gravatar.com\/avatar\/beda7724e65c8d70a54b50a05455f36d?s=96&d=mm&r=g"
+            },
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users\/1"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/users"
+                }]
+            }
+        }],
+        "wp:term": [[{
+            "id": 34,
+            "link": "http:\/\/www.tobiasarud.se\/category\/sport\/",
+            "name": "Sport",
+            "slug": "sport",
+            "taxonomy": "category",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories\/34"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/categories"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/category"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?categories=34"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }], [{
+            "id": 281,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/christian-wilhelmsson\/",
+            "name": "Christian Wilhelmsson",
+            "slug": "christian-wilhelmsson",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/281"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=281"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 123,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/em-kval\/",
+            "name": "EM-kval",
+            "slug": "em-kval",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/123"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=123"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 124,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/euro-2012\/",
+            "name": "Euro 2012",
+            "slug": "euro-2012",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/124"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=124"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }, {
+            "id": 282,
+            "link": "http:\/\/www.tobiasarud.se\/tag\/uselt\/",
+            "name": "uselt",
+            "slug": "uselt",
+            "taxonomy": "post_tag",
+            "_links": {
+                "self": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags\/282"
+                }],
+                "collection": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/tags"
+                }],
+                "about": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/taxonomies\/post_tag"
+                }],
+                "wp:post_type": [{
+                    "href": "http:\/\/www.tobiasarud.se\/wp-json\/wp\/v2\/posts?tags=282"
+                }],
+                "curies": [{
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }]
+            }
+        }]]
     }
 }]

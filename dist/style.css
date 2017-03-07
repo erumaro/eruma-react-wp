@@ -1,2 +1,2 @@
-body{background:#333}.ui.button{color:red}
+body{background:#ebebeb}.site-header{padding:1em 0;background:#333}.ui.grid>.row>.column[class*="thirteen wide"]{align-items:center;display:flex}.ui.menu .item,.ui.secondary.menu .dropdown.item:hover,.ui.secondary.menu .link.item:hover,.ui.secondary.menu a.item:hover{color:#fff}.ui.items>.item{align-items:center}main article{position:relative;background-color:#2f2a27;margin:1em 0}main article img{opacity:.5;filter:alpha(opacity=50)}main article .ui.centered.grid{position:absolute;top:50%;left:50%;margin-right:-50%;transform:translate(-50%,-50%);color:#fff}h2.ui.header{margin:0;color:#fff}.ui.button{margin:1em 0}.widget-area{background-color:#000}footer{background:#fff;padding:1em 0}
 /*# sourceMappingURL=style.css.map*/
