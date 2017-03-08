@@ -1,10 +1,11 @@
 import axios from 'axios';
 
 export const FETCH_POSTS = 'FETCH_POSTS';
+export const FETCH_POST = 'FETCH_POST';
 export const FETCH_CATS = 'FETCH_CATS';
 export const FETCH_CAT = 'FETCH_CAT';
 
-const ROOT_URL = 'http://www.tobiasarud.se/wp-json/wp/v2';
+const ROOT_URL = 'http://localhost/wordpress-react/wp-json/wp/v2';
 
 export function fetchPosts() {
     const request = axios.get(`${ROOT_URL}/posts?&_embed=true`);
@@ -13,6 +14,15 @@ export function fetchPosts() {
         type: FETCH_POSTS,
         payload: request
     };
+}
+
+export function fetchPost(id) {
+    const request = axios.get(`${ROOT_URL}/posts/${id}?&_embed=true`);
+    
+    return {
+        type: FETCH_POST,
+        payload: request
+    }
 }
 
 export function fetchCats(){
