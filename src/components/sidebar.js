@@ -13,7 +13,7 @@ class Sidebar extends Component {
         return this.props.cats.map((cat) => {
             return (
                 <List.Item key={cat.id}>
-                    <Link to={`category/${cat.id}`}>{cat.name}</Link>
+                    <Link to={`categories/${cat.id}`}>{cat.name}</Link>
                 </List.Item>
             )
         });
@@ -36,7 +36,7 @@ class Sidebar extends Component {
 }
 
 function mapStateToProps(state) {
-    return { cats: state.cats.all };
+    return { cats: state.cats.catall };
 }
 
 export default connect(mapStateToProps, { fetchCats })(Sidebar);

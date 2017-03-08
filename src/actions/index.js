@@ -35,7 +35,7 @@ export function fetchCats(){
 }
 
 export function fetchCat(id){
-    const request = axios.get(`${ROOT_URL}/categories/${id}`);
+    const request = axios.get(`${ROOT_URL}/posts?categories=${id}&_embed=true`);
     
     return {
         type: FETCH_CAT,

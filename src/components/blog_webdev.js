@@ -12,10 +12,11 @@ class Blog extends Component {
     }
     
     renderPosts() {
+        const src = '/assets/images/wireframe/image.png';
         return this.props.posts.map((post) => {
             return (
                 <article key={post.id} className='post'>
-                    <Image src={post._embedded["wp:featuredmedia"] != undefined ? post._embedded["wp:featuredmedia"][0].source_url : `${directory_uri.stylesheet_directory_uri}/images/placeholder.jpg`} fluid />
+                    <Image src={post._embedded["wp:featuredmedia"] != undefined ? post._embedded["wp:featuredmedia"][0].source_url : `../images/placeholder.jpg`} fluid />
                     <Grid centered columns={2}>
                         <Grid.Column>
                             <header><Header as='h2'>{ReactHtmlParser(post.title.rendered)}</Header></header>

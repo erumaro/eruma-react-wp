@@ -10,6 +10,6 @@ export default(
     <Route path="/" component={App}>
         <IndexRoute component={Blog} />
         <Route path="posts/:id" component={SinglePost} />
-        <Route path="category/:id" component={Category} />
+        <Route path="categories/:id" component={Category} />
     </Route>
 );
