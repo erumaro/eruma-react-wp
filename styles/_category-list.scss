@@ -1,0 +1,14 @@
+.category-list{ 
+    .ui.list > .item a.header{
+        color: #fff !important;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    .item{
+        position: relative;
+        .content{
+            @include centeredAbs;  
+        }
+    }
+}

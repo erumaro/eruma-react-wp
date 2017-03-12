@@ -1,0 +1,33 @@
+.single-post{
+    header{
+        position: relative;
+        
+        .ui.header{
+            position: absolute;
+            bottom: 3em;
+            left: 0;
+            padding: 0.5em 1em;
+            background-color: #000;
+        }
+    }
+    footer{
+        background: #2f2a27;
+        color: #fff;
+        padding: 0.5em 1em;
+        display: flex;
+        align-items: center;
+        .ui.horizontal.list{
+            display: flex;
+            align-items: center;
+        }
+        .ui.list > .item .header{
+            color: #fff;
+        }
+        a{
+            color: #fff;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}

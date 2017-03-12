@@ -2,24 +2,13 @@
     align-items: center;
 }
 
-main {
-    article{
-        position: relative;
-        background-color: #2f2a27;
-        margin: 1em 0;
-        
-        img{
-            opacity: 0.5;
-            filter: alpha(opacity=50); /* For IE8 and earlier */
-        }
-        .ui.centered.grid{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            margin-right: -50%;
-            transform: translate(-50%, -50%);
-            color: #fff;
-        }
+article.home, article.category{
+    position: relative;
+    background-color: #2f2a27;
+
+    .ui.centered.grid{
+        @include centeredAbs;
+        color: #fff;
     }
 }
 

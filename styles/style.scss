@@ -2,10 +2,24 @@ body{
     background: #ebebeb;
 }
 
+.featured-image{
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+article{
+    margin: 1em 0;
+}
+
+@import "mixins";
+
 @import "header";
 
 @import "front-page";
+@import "single";
 
-@import "sidebar";
+@import "category-list";
+@import "single-post";
+@import "page";
 
 @import "footer";

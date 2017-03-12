@@ -2,6 +2,16 @@
 body {
   background: #ebebeb; }
 
+/* line 5, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/style.scss */
+.featured-image {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */ }
+
+/* line 10, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/style.scss */
+article {
+  margin: 1em 0; }
+
 /* line 1, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_header.scss */
 .site-header {
   padding: 1em 0;
@@ -24,18 +34,12 @@ body {
 .ui.items > .item {
   align-items: center; }
 
-/* line 6, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
-main article {
+/* line 5, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
+article.home, article.category {
   position: relative;
-  background-color: #2f2a27;
-  margin: 1em 0; }
-  /* line 11, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
-  main article img {
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-    /* For IE8 and earlier */ }
-  /* line 15, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
-  main article .ui.centered.grid {
+  background-color: #2f2a27; }
+  /* line 9, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
+  article.home .ui.centered.grid, article.category .ui.centered.grid {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,18 +47,74 @@ main article {
     transform: translate(-50%, -50%);
     color: #fff; }
 
-/* line 26, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
+/* line 15, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
 h2.ui.header {
   margin: 0;
   color: #fff; }
 
-/* line 31, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
+/* line 20, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_front-page.scss */
 .ui.button {
   margin: 1em 0; }
 
-/* line 1, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_sidebar.scss */
-.widget-area {
-  background-color: black; }
+/* line 2, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single.scss */
+.post .post-content, .page .post-content {
+  background-color: #fff;
+  padding: 1em; }
+
+/* line 2, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_category-list.scss */
+.category-list .ui.list > .item a.header {
+  color: #fff !important; }
+  /* line 4, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_category-list.scss */
+  .category-list .ui.list > .item a.header:hover {
+    text-decoration: underline; }
+
+/* line 8, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_category-list.scss */
+.category-list .item {
+  position: relative; }
+  /* line 10, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_category-list.scss */
+  .category-list .item .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); }
+
+/* line 2, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
+.single-post header {
+  position: relative; }
+  /* line 5, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
+  .single-post header .ui.header {
+    position: absolute;
+    bottom: 3em;
+    left: 0;
+    padding: 0.5em 1em;
+    background-color: #000; }
+
+/* line 13, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
+.single-post footer {
+  background: #2f2a27;
+  color: #fff;
+  padding: 0.5em 1em;
+  display: flex;
+  align-items: center; }
+  /* line 19, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
+  .single-post footer .ui.horizontal.list {
+    display: flex;
+    align-items: center; }
+  /* line 23, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
+  .single-post footer .ui.list > .item .header {
+    color: #fff; }
+  /* line 26, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
+  .single-post footer a {
+    color: #fff; }
+    /* line 28, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
+    .single-post footer a:hover {
+      text-decoration: underline; }
+
+/* line 2, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_page.scss */
+.page .ui.header {
+  background: #000;
+  padding: 0.5em 1em; }
 
 /* line 1, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_footer.scss */
 footer {

@@ -4,6 +4,7 @@ export const FETCH_POSTS = 'FETCH_POSTS';
 export const FETCH_POST = 'FETCH_POST';
 export const FETCH_CATS = 'FETCH_CATS';
 export const FETCH_CAT = 'FETCH_CAT';
+export const FETCH_PAGE = 'FETCH_PAGE';
 
 const ROOT_URL = 'http://localhost/wordpress-react/wp-json/wp/v2';
 
@@ -39,6 +40,15 @@ export function fetchCat(id){
     
     return {
         type: FETCH_CAT,
+        payload: request
+    }
+}
+
+export function fetchPage(id){
+    const request = axios.get(`${ROOT_URL}/pages/${id}?&_embed=true`);
+    
+    return {
+        type: FETCH_PAGE,
         payload: request
     }
 }
