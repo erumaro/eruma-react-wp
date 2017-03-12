@@ -3,6 +3,7 @@
 if ( ! function_exists( 'eruma_go_setup' ) ) :
 function eruma_go_setup() {
 	add_theme_support( 'title-tag' );
+	add_theme_support( 'post-thumbnails' );
 }
 endif; // eruma_go_setup
 add_action( 'after_setup_theme', 'eruma_go_setup' );

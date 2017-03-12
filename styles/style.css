@@ -12,6 +12,11 @@ body {
 article {
   margin: 1em 0; }
 
+/* line 14, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/style.scss */
+img {
+  width: 100%;
+  height: auto; }
+
 /* line 1, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_header.scss */
 .site-header {
   padding: 1em 0;
@@ -81,8 +86,9 @@ h2.ui.header {
 
 /* line 2, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
 .single-post header {
-  position: relative; }
-  /* line 5, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
+  position: relative;
+  background: #2f2a27; }
+  /* line 6, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
   .single-post header .ui.header {
     position: absolute;
     bottom: 3em;
@@ -90,24 +96,24 @@ h2.ui.header {
     padding: 0.5em 1em;
     background-color: #000; }
 
-/* line 13, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
+/* line 14, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
 .single-post footer {
   background: #2f2a27;
   color: #fff;
   padding: 0.5em 1em;
   display: flex;
   align-items: center; }
-  /* line 19, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
+  /* line 20, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
   .single-post footer .ui.horizontal.list {
     display: flex;
     align-items: center; }
-  /* line 23, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
+  /* line 24, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
   .single-post footer .ui.list > .item .header {
     color: #fff; }
-  /* line 26, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
+  /* line 27, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
   .single-post footer a {
     color: #fff; }
-    /* line 28, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
+    /* line 29, F:/xampp/htdocs/wordpress-react/wp-content/themes/eruma-go/styles/_single-post.scss */
     .single-post footer a:hover {
       text-decoration: underline; }
 
