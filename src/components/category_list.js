@@ -13,7 +13,7 @@ class CategoryList extends Component {
         return this.props.cats.map((cat) => {
             return (
                 <List.Item key={cat.id}>
-                    <Image src={`${directory_uri.stylesheet_directory_uri}/images/placeholder.jpg`} fluid />
+                    <Image src={`${wpglobals.themeURL}/images/placeholder.jpg`} fluid />
                     <List.Content>
                         <List.Header as={Link} to={`categories/${cat.id}`}>{cat.name}</List.Header>
                     </List.Content>

@@ -23,7 +23,7 @@ class SinglePost extends Component {
                 <Container>
                     <article key={post.id} className='post single-post'>
                         <header>
-                            <Image className="featured-image" src={post._embedded["wp:featuredmedia"] != undefined ? post._embedded["wp:featuredmedia"][0].source_url : `${directory_uri.stylesheet_directory_uri}/images/placeholder.jpg`} fluid />
+                            <Image className="featured-image" src={post._embedded["wp:featuredmedia"] != undefined ? post._embedded["wp:featuredmedia"][0].source_url : `${wpglobals.themeURL}/images/placeholder.jpg`} fluid />
                             <Header as='h2'>{ReactHtmlParser(post.title.rendered)}</Header>
                         </header>
                         <div className='post-content' dangerouslySetInnerHTML={ { __html: post.content.rendered } }></div>

@@ -6,7 +6,7 @@ export const FETCH_CATS = 'FETCH_CATS';
 export const FETCH_CAT = 'FETCH_CAT';
 export const FETCH_PAGE = 'FETCH_PAGE';
 
-const ROOT_URL = 'http://localhost/wordpress-react/wp-json/wp/v2';
+const ROOT_URL = `${wpglobals.rootURL}wp/v2`;
 
 export function fetchPosts() {
     const request = axios.get(`${ROOT_URL}/posts?&_embed=true`);

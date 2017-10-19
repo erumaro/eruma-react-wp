@@ -15,7 +15,7 @@ class Blog extends Component {
         return this.props.cat.map((cat) => {
             return (
                 <article key={cat.id} className='category'>
-                    <Image className="featured-image" src={cat._embedded["wp:featuredmedia"] != undefined ? cat._embedded["wp:featuredmedia"][0].source_url : `${directory_uri.stylesheet_directory_uri}/images/placeholder.jpg`} fluid />
+                    <Image className="featured-image" src={cat._embedded["wp:featuredmedia"] != undefined ? cat._embedded["wp:featuredmedia"][0].source_url : `${wpglobals.themeURL}/images/placeholder.jpg`} fluid />
                     <Grid centered columns={2}>
                         <Grid.Column>
                             <header><Header as='h2'>{ReactHtmlParser(cat.title.rendered)}</Header></header>

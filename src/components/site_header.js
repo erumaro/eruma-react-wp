@@ -10,7 +10,7 @@ class SiteHeader extends Component {
                     <Grid>
                         <Grid.Row>
                             <Grid.Column width={3}>
-                                <Image alt="logo" src={`${directory_uri.stylesheet_directory_uri}/images/eruma-go-logo-white.png`} />
+                                <Image alt="logo" src={`${wpglobals.themeURL}/images/eruma-go-logo-white.png`} />
                             </Grid.Column>
                             <Grid.Column width={13}>
                                 <Menu secondary fluid widths={4}>
