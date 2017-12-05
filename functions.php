@@ -12,6 +12,15 @@ function eruma_go_setup() {
         'gallery',
         'caption',
     ));
+    
+    // Custom background support with default background
+    add_theme_support('custom-background', apply_filters( 'eruma_go_custom_background_args', array(
+        'default-color' => '606048',
+        'default-image' => '%1$s/images/bg.jpg',
+        'default-repeat' => 'no-repeat',
+        'default-position-x' => 'center',
+        'default-attachment' => 'fixed',
+    )));
 }
 endif; // eruma_go_setup
 add_action( 'after_setup_theme', 'eruma_go_setup' );

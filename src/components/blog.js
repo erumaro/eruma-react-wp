@@ -18,7 +18,7 @@ class Blog extends Component {
                     <Image className="featured-image" src={post._embedded["wp:featuredmedia"] != undefined ? post._embedded["wp:featuredmedia"][0].source_url : `${wpglobals.themeURL}/images/placeholder.jpg`} fluid />
                     <Grid centered columns={2}>
                         <Grid.Column>
-                            <header><Header as='h2'>{ReactHtmlParser(post.title.rendered)}</Header></header>
+                            <header><Header as='h2'>{JSON.stringify(post.title.rendered)}</Header></header>
                             <div className='post-content' dangerouslySetInnerHTML={ { __html: post.excerpt.rendered } }></div>
                             <Button as={Link} to={'posts/' + post.id} color='teal'>Läs Mer</Button>
                         </Grid.Column>

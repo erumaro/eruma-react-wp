@@ -15,9 +15,9 @@ class SiteHeader extends Component {
                             <Grid.Column width={13}>
                                 <Menu secondary fluid widths={4}>
                                     <Menu.Item as={Link} to='/' name='home'/>
-                                    <Menu.Item as={Link} to='category' name='category'/>
-                                    <Menu.Item as={Link} to={'pages/911'} name='about'/>
-                                    <Menu.Item as={Link} to={'pages/866'} name='contact'/>
+                                    <Menu.Item as={Link} to='projects' name='projekt'/>
+                                    <Menu.Item as={Link} to='blog' name='blogg'/>
+                                    <Menu.Item as={Link} to={'pages/911'} name='om mig'/>
                                 </Menu>
                             </Grid.Column>
                         </Grid.Row>
