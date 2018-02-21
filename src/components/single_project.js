@@ -45,7 +45,16 @@ class SingleProject extends Component {
                                 <List.Item>
                                     <List.Content>
                                         <List.Header>Kategori:</List.Header>
-                                        <List.Content><Link to={`technologies/${project._embedded["wp:term"][0][0].id}`}>{project._embedded["wp:term"][0][0].name}</Link></List.Content>
+
+                                        <List.Content>
+                                        <List divided horizontal>
+                                        { project._embedded["wp:term"][1].map((cat) => {
+                                            return(
+                                            <List.Item key={cat.id}><Link to={`technologies/${cat.id}`}>{cat.name}</Link></List.Item>
+                                            )
+                                        }) }
+                                        </List>
+                                        </List.Content>
                                     </List.Content>
                                 </List.Item>
                             </List>

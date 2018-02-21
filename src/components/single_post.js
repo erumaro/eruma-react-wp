@@ -45,7 +45,15 @@ class SinglePost extends Component {
                                 <List.Item>
                                     <List.Content>
                                         <List.Header>Kategori:</List.Header>
-                                        <List.Content><Link to={`categories/${post._embedded["wp:term"][0][0].id}`}>{post._embedded["wp:term"][0][0].name}</Link></List.Content>
+                                        <List.Content>
+                                        <List celled horizontal>
+                                        { post._embedded["wp:term"][0].map((cat) => {
+                                            return(
+                                            <List.Item key={cat.id}><Link to={`technologies/${cat.id}`}>{cat.name}</Link></List.Item>
+                                            )
+                                        }) }
+                                        </List>
+                                        </List.Content>
                                     </List.Content>
                                 </List.Item>
                             </List>

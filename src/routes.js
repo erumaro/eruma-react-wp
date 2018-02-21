@@ -19,5 +19,7 @@ export default(
         <Route path="pages/:id" component={Page} />
         <Route path="projects" component={Projects} />
         <Route path="projects/:id" component={SingleProject} />
+        <Route path="technology" component={CategoryList} />
+        <Route path="technologies/:id" component={Category} />
     </Route>
 );

@@ -7,6 +7,8 @@ export const FETCH_CAT = 'FETCH_CAT';
 export const FETCH_PAGE = 'FETCH_PAGE';
 export const FETCH_PROJECTS = 'FETCH_PROJECTS';
 export const FETCH_PROJECT = 'FETCH_PROJECT';
+export const FETCH_TECHS = 'FETCH_TECHS';
+export const FETCH_TECH = 'FETCH_TECH';
 
 const ROOT_URL = `${wpglobals.rootURL}wp/v2`;
 
@@ -69,6 +71,24 @@ export function fetchProject(id) {
     
     return {
         type: FETCH_PROJECT,
+        payload: request
+    }
+}
+
+export function fetchTechs(){
+    const request = axios.get(`${ROOT_URL}/technology`);
+    
+    return {
+        type: FETCH_TECHS,
+        payload: request
+    }
+}
+
+export function fetchTech(id){
+    const request = axios.get(`${ROOT_URL}/projects?technology=${id}&_embed=true`);
+    
+    return {
+        type: FETCH_TECH,
         payload: request
     }
 }

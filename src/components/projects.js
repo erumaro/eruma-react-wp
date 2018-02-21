@@ -17,7 +17,7 @@ class Projects extends Component {
                     <Image className="featured-image" src={project._embedded["wp:featuredmedia"] != undefined ? project._embedded["wp:featuredmedia"][0].source_url : `${wpglobals.themeURL}/images/placeholder.jpg`} fluid />
                     <Grid centered columns={2}>
                         <Grid.Column>
-                            <header><Header as='h2' dangerouslySetInnerHTML={ { __html: project.excerpt.rendered } }></Header></header>
+                            <header><Header as='h2'>{JSON.stringify(project.title.rendered)}</Header></header>
                             <div className='post-content' dangerouslySetInnerHTML={ { __html: project.excerpt.rendered } }></div>
                             <Button as={Link} to={'projects/' + project.id} color='teal'>Läs Mer</Button>
                         </Grid.Column>
